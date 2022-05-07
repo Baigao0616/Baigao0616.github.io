@@ -1,0 +1,134 @@
+li {
+	list-style: none;
+}
+
+.m-menu>button {
+	width: 50px;
+	height: 30px;
+}
+
+.m-bigimg>.m-l1 {
+	display: flex;
+    flex-direction: row;
+}
+
+.m-bigimg>.m-l2 {
+	display: flex;
+    flex-direction: row;
+}
+
+.m-bigimg>.m-l1,.m-l2>li {
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+}
+
+img {
+	position: absolute;
+	top: 29px;
+	left: 200px;
+	height: 200px;
+	width: 200px;
+}
+.m-bigimg {
+	width: 600px;
+	height: 240px;
+	background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.m-bigimg>.m-l1>li{
+    margin: 20px;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
+
+.m-bigimg>.m-l1>li+li {
+	margin-left: 20px;
+}
+
+
+.m-bigimg>.m-l2>li{
+    margin: 20px;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background-color: gray;
+}
+
+.m-bigimg>.m-l2.li:nth-child(1){
+	padding-left: 20px;
+}
+
+.m-bigimg>.m-l2>li+li {
+	margin-left: 20px;
+}
+.f1{
+    margin-left: 50px;
+}
+.m-bum>span{
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 50px;
+}
+td{
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    border-spacing: 0;
+    box-sizing: border-box;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #DDDDDD;
+    padding: 5px 5px;
+    line-height: 28px;
+    vertical-align: middle;
+    color: #666;
+}
+.t-del{
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    display: inline-block;
+    border-style: solid;
+    padding: 6px 10px;
+    border-width: 1px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: all .3s ease;
+    z-index: 11;
+    cursor: pointer;
+    color: #fff!important;
+    background: #d15b47!important;
+    border-color: #d15b47;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    color: #393939;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 12px;
+    border-spacing: 0;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.m-tb{
+    margin-top: 10px;
+    border-style: solid;
+    border-top-color: #9f8e8e;
+    border-width: thin;
+}
+#add{
+    margin-top: 10px;
+    border-style: none;
+}

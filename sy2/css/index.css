@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+ 
+ li {
+    list-style: none;
+ }
+.m-bk {
+    position: absolute; 
+    width: 1064px;
+    height: 544px;
+    background: url('../img/bk.jpg') no-repeat;
+    opacity:.0;
+}
+
+.m-menu {
+    padding: 15px 65px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.35px;
+    color: #6c6c6c;
+}
+
+.m-menu-item+.m-menu-item{
+    margin-left: 15px;
+}
+
+.c{
+    display: inline-block;
+}
+
+.c-content {
+    float: left;
+    padding: 23px 34px;
+    width: 460px;
+    height: 544px;
+}
+
+
+.c-other+.c-content {
+    margin.left: 200px;
+}
+
+.c-other {
+    float: right;
+    padding: 55px 190px;
+    width: 460px;
+    height: 544px;
+}
+
+.c-other-menu {
+    font: bold;
+    font-size: 19px;
+    letter-spacing: 0.6px;
+}
+
+.c-other-menu+.c-other-num {
+    margin-top: 48px;
+}
+
+.c-other-num {
+    float: left;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.c-other-num-2 {
+    float: left;
+    padding: 22px 0px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.c-other-title {
+   padding: 49px 45px;
+   font-size: 15px;
+   letter-spacing: 0.1px;
+}
+
+
+.c-other-title+.c-other-author {
+    margin-top: -48px;
+}
+
+.c-other-author {
+    padding: 4px 45px;
+    font-size: 13px;
+}
+
+.c-other-author+.c-other-time {
+    margin-top: -2px;
+}
+
+.c-other-time {
+    padding: 0px 45px;
+    font-size: 2px;
+    letter-spacing: 0.2px;
+}
+
+.c-other-title-2 {
+    padding: 23px 45px;
+    letter-spacing: px;
+    font-size: 15px;
+}
+
+.c-other-title-2+.c-other-author {
+    margin-top: -22px;
+}
+
+.c-other-num-3 {
+    float: left;
+    padding: 22px 0px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.c-other-title-3{
+    padding: 25px 45px;
+    letter-spacing: px;
+    font-size: 15px;
+}
+
+.c-other-title-3+.c-other-author {
+    margin-top: -25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.c-content-source {
+    font-size: 12px;
+    letter-spacing: 0.55px;
+    color: #dedede;
+}
+
+
+.c-content-source+.c-content-title {
+    margin-top: 0.5px;
+}
+
+.c-content-title+.c-content-source {
+    margin-top: 123px;
+}
+
+.c-content-title+.c-content-remark {
+    margin-top: 2px;
+}
+
+.c-content-remark+.c-content-author {
+    margin-top: 15px;
+}
+
+.c-content-author+.c-content-time {
+    margin-top: 2px;
+}
+
+.c-content-time+.c-content-source {
+    margin-top: 51px;
+}
+.c-content-author+.c-content-source {
+    margin-top: 69px;
+}
+
+
+
+
+
+.c-content-title {
+    font-size: 22px;
+    font: bold;
+    letter-spacing: -1.3px;
+}
+
+.c-content-remark {
+    font-size: 13px;
+}
+
+.c-content-author {
+    font-size: 13px;
+    letter-spacing: -0.5px;
+}
+
+.c-content-time {
+    font-size: 5px;
+    letter-spacing: 0.1px;
+}
+
+
+
+
+

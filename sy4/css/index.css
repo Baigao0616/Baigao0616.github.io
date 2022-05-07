@@ -1,0 +1,287 @@
+body {
+	margin: 0;
+}
+
+
+li {
+	list-style: none;
+}
+
+
+
+.m-taobao {
+	width: 304px;
+	height: 440px;
+	border: 7px solid #f9f9f9;
+	box-sizing: border-box;
+}
+
+.m-hd {
+	height: 56px;
+	padding: 0 13px;
+	text-align: center;
+}
+
+
+.m-hd>li {
+	float: left;
+	padding: 8px 15px;
+}
+
+.m-hd>li>label {
+	display: block;
+	color: #dd0000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.m-hd>li>span {
+	font-size: 12px;
+}
+
+
+
+.m-part1 {
+	height: 15px;
+	padding: 6px 61px;
+	background-color: #ffe5dd;
+}
+
+.m-part1>span {
+	font-size: 10px;
+	color: orange;
+	padding: 0px 20px;
+}
+
+
+.m-part2 {
+	margin: 10px;
+	height: 30px;
+	padding: 0px 2px;
+}
+
+.m-part2>span {
+	font-size: 12px;
+	padding: 0px 12px;
+}
+
+#a {
+	
+	padding: 3px 3px;
+	border-color: white;
+	border-bottom-color:orange ;
+	border-style: solid;
+	border-width: 0px 0px 1px 0px;
+	margin: 0px 10px;
+
+}
+
+.m-part3 {
+	height: 55px;
+	padding: 0 1px;
+}
+
+.m-part3>li {
+	float: left;
+	padding: 0px 10px;
+}
+
+.m-part3>li>span {
+	display: block;
+	font-size: 10px;
+
+}
+.a1 {
+	color: red;
+}
+
+.a1 + .a2 {
+	margin-left: 15px;
+	color: red;
+}
+
+.a3 {
+	margin-top: 10px;
+	color: black;
+}
+
+.a4 {
+	margin-top: 10px;
+	color: black;
+}
+
+.a3+.a4 {
+	margin-left: 26px;
+}
+
+.m-part4 {
+    position: absolute;
+    padding-top: 86px;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 28px;
+    margin-top: -50px;
+    margin-left: 3px;
+    margin-right: 11px;
+}
+
+.m-part4>li {
+	float: left;
+	margin-right: 29px;
+	margin-top: 13px;
+	margin-left: -2px;
+	padding-left: 0px;
+	padding-right: 19px;
+}
+
+.box1{
+    position: absolute;
+    width: 69px;
+    height: 76px;
+    border-style: solid;
+    border-color: #F7461F;
+    margin-top: 4px;
+    border-width: 1px 1px 0px 1px;
+}
+.box2{
+    position: absolute;
+    width: 69px;
+    height: 76px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    margin-top: 4px;
+    margin-left: 71px;
+    border-width: 1px 1px 1px 0px;
+    border-bottom-color: #F7461F;
+}
+.box3{
+    position: absolute;
+    width: 69px;
+    height: 76px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    margin-top: 4px;
+    margin-left: 141px;
+    border-width: 1px 1px 1px 0px;
+    border-bottom-color: #F7461F;
+}
+.box4{
+    position: absolute;
+    width: 69px;
+    height: 76px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    margin-top: 4px;
+    margin-left: 211px;
+    border-width: 1px 1px 1px 0px;
+    border-bottom-color: #F7461F;
+}
+.box5{
+    position: absolute;
+    width: 279px;
+    height: 155px;
+    border-style: solid;
+    border-color: #F7461F;
+    margin-top: 81px;
+    border-width: 0px 1px 1px 1px;
+}
+.m-part5{
+    position: absolute;
+    list-style: none;
+    padding-top: 77px;
+    font-size: 10px;
+    padding-left: 25px;
+    padding-right: 28px;
+    margin-top: 0px;
+    margin-left: 3px;
+    margin-right: 11px;
+}
+.m-part5>li{
+    float: left;
+    margin-right: 29px;
+    margin-top: 13px;
+    margin-left: -5px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.x{
+    color: #F7461F;
+}
+.box6{
+    position: absolute;
+    width: 188px;
+    height: 23px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    margin-top: 116px;
+    margin-left: 16px;
+    border-width: 1px 1px 1px 1px;
+}
+.box7{
+    position: absolute;
+    width: 188px;
+    height: 24px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    margin-top: 139px;
+    margin-left: 16px;
+    border-width: 0px 1px 1px 1px;
+}
+.x1{
+    position: absolute;
+    padding-top: 86px;
+    font-size: 10px;
+    padding-left: 18px;
+    padding-right: 28px;
+    margin-top: 35px;
+    margin-left: 4px;
+    margin-right: 11px;
+}
+.x2{
+    position: absolute;
+    padding-top: 86px;
+    font-size: 10px;
+    padding-left: 18px;
+    padding-right: 28px;
+    margin-top: 61px;
+    margin-left: 3px;
+    margin-right: 11px;
+}
+.x3{
+    position: absolute;
+    padding-top: 86px;
+    font-size: 10px;
+    padding-left: 18px;
+    padding-right: 28px;
+    margin-top: 87px;
+    margin-left: 1px;
+    margin-right: 11px;
+}
+.box8{
+    position: absolute;
+    width: 67px;
+    height: 25px;
+    border-style: solid;
+    border-color: #F7461F;
+    margin-top: 195px;
+    margin-left: 16px;
+    border-width: 1px 1px 1px 1px;
+    background-color:#F7461F ;
+}
+.x4{
+    position: absolute;
+    padding-top: 86px;
+    font-size: 10px;
+    padding-left: 18px;
+    padding-right: 28px;
+    margin-top: 114px;
+    margin-left: 8px;
+    margin-right: 11px;
+    color: white;
+}
+
+
+
+
+
+
